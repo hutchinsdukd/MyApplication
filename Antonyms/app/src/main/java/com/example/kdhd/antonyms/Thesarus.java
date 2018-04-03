@@ -5,9 +5,12 @@ public class Thesarus {
     String word, antn;
 
 
-    public void setThesar(String word, String antn){
-        this.word = word;
-        this.antn = antn;
+    public void setWord(String word1){
+        this.word = word1;
+    }
+
+    public void setAntn(String antn1){
+        this.antn = antn1;
     }
 
     public String getAntn(){

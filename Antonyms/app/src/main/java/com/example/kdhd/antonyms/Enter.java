@@ -29,7 +29,8 @@ public class Enter extends AppCompatActivity {
 
             //insert into db
             Thesarus t = new Thesarus();
-            t.setThesar(wordstr, antonymstr);
+            t.setWord(wordstr);
+            t.setAntn(antonymstr);
 
             helper.newEntry(t);
 

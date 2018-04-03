@@ -56,10 +56,10 @@ public class DBHelp extends SQLiteOpenHelper {
 
         if (cursor.moveToFirst()){
             do {
-                a = cursor.getString(1);
+                a = cursor.getString(0);
 
                 if(a.equals(inputW)){
-                    b = cursor.getString(2);
+                    b = cursor.getString(1);
                     break;
                 }
             }
